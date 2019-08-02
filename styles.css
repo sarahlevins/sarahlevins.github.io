@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+}
+
+.body {
+    padding-right: 0px;
+}
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+}
+
+.col {
+    padding:0 px;
+}
+
+.row-title {
+    height: 70%;
+}
+
+.row-navigation {
+    height: 75px;
+}
+
+.title-image {
+    background-image: url("images/fade.jpg");
+}
+
+.title-text {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 5vh;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.menulink {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* golden ratio text */
+
+.grt {
+	font-family: Verdana, sans-serif;
+	font-size: 30px;
+	line-height: 51px;
+	/* padding: 32px; */
+}
+.grt h1 {
+	font-size: 62px;
+	line-height: 98px;
+	margin-bottom: 51px;
+}
+
+.grt h2 {
+	font-size: 49px;
+	line-height: 79px;
+	margin-top: 83px;
+	margin-bottom: 32px;
+}
+.grt h3 {
+	font-size: 38px;
+	line-height: 63px;
+	margin-top: 51px;
+	margin-bottom: 20px;
+}
+.grt h4 {
+	font-size: 30px;
+	line-height: 51px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+.grt p, .grt ul, .grt ol, .grt blockquote, .grt pre, .grt .alert, .grt .note, .grt .box, .grt .footnotes {
+	/* margin-bottom: 51px; */
+}
+.grt ul, .grt ol {
+	margin-left: 51px;
+}
+.grt li {
+	margin-bottom: 20px;
+}
+}
+.grt .footnotes {
+	font-size: 24px;
+	line-height: 42px;
+	padding-top: 32px;
+	border-top: 1px dotted rgba(0,0,0,0.15);
+}
+
+.grt .formtext {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.grt .footer {
+    font-size: 16px;
+    line-height: 31px;
+    color: #9c9c9c;
+}
+.grt .footnotes p {
+	margin-bottom: 32px;
+}
