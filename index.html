@@ -10,15 +10,20 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 
     <title>Sarah Levins</title>
   </head>
   <body>            
-
-    <div class="container-fluid">
-            <!-- header picture -->
-            <div class="w-100 vh-75 p-0 " style= "height: 75%">
-            <img src="images/fade.jpg" alt="plane banner image" width="100% height=100%">           
+        
+        <!-- header picture -->
+        <div class="w-100 vh-75 p-0 d-flex justify-content-center align-items-center" style="height: 75%">
+            <img src="images/fade.jpg" alt="plane banner image" width="100% height=100%">
+            <div class="position-absolute justify-self-center text-center">
+                <h1>SARAH LEVINS</h1>
+                <h4>WEB DEVELOPER</h4>
+            </div>           
         </div>
 
             <!-- navigation bar-->
@@ -26,54 +31,54 @@
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
-                        <ul class="grt navbar-nav p-0" style="align-items: center">
-                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="aboutme.html" class="nav-link">About</a></li>
-                            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                            <li class="nav-item"><a href="upcoming.html" class="nav-link">Upcoming</a></li>
-                            <li class="nav-item"><a href="index.html#contactme" class="nav-link">Contact Me</a></li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+                    <ul class="grt navbar-nav p-0" style="align-items: center">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="aboutme.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="upcoming.html" class="nav-link">Upcoming</a></li>
+                        <li class="nav-item"><a href="index.html#contactme" class="nav-link">Contact Me</a></li>
+                    </ul>
+                </div>
             </nav>
 
-            <!-- social media icons -->
-            <div class="d-flex mt-5 justify-content-center">
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item border-0">
-                        <a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook" height="40vh" width="40vh"></a>
-                    </li>
-                    <li class="list-group-item border-0">
-                        <a href="http://www.instagram.com"><img src="images/instagram.png" alt="instagram" height="40vh" width="40vh"></a>
-                    </li>
-                    <li class="list-group-item border-0"> 
-                        <a href="http://www.linkedin.com"><img src="images/linkedin.png" alt="linkedin" height="40vh" width="40vh"></a>
-                    </li>
-                    <li class="list-group-item border-0">
-                        <a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter" height="40vh" width="40vh"></a>
-                    </li>
-                </ul>
-            </div>
+            <div class="container-fluid">
 
             <!-- home page content -->
-            <div class="row mt-5 justify-content-center">
-                <div class="col-11 col-md-4">
-                    <p class="text-center text-md-right grt">I am a participant in the SheCodes Plus program. I create fun code and websites for all to see.</p>
+            <div class="row my-0 mx-0 justify-content-center">
+                <div class="col-11 col-md-4 align-self-center mt-5">
+                    <p class="grt text-center text-md-right">I am a participant in the SheCodes Plus program. I create fun code and websites for all to see.</p>
                 </div>
-                <div class="col-11 col-md-4">
+                <div class="col-11 col-md-4 mt-5">
                     <img src="images/image3.JPG" alt="me" class="img-fluid">
+                </div>
+            </div>
+            <div class="row my-0 mx-0 justify-content-center">
+                <div class="col-11 col-md-4 order-md-2 mt-5 align-self-center">
+                    <p class="grt text-center text-md-left">I am also a travel agent. I create amazing travel experiences, and make sure to try them out whenever I can.</p>
+                </div>
+                <div class="col-11 col-md-4 order-md-1 mt-5">
+                    <img src="images/IMG_6461.JPG" alt="me in south africa" class="img-fluid">
+                </div>
+            </div>
+            <div class="row my-0 mx-0 justify-content-center mb-5">
+                <div class="col-11 col-md-4 align-self-center mt-5">
+                    <p class="grt text-center text-md-right">Here is slightly more content just to fill some space. Once again, I'm trying to code right now. I'll worry about self promotion later.</p>
+                </div>
+                <div class="col-11 col-md-4 mt-5">
+                    <img src="images/IMG_0635.JPG" alt="me" class="img-fluid">
                 </div>
             </div>
 
             <!-- contact me form -->
-            <div class="row my-5 justify-content-center">
-                <div class="col-8 col-md-4 grt p-0">
-                    <form method="POST" action="https://formspree.io/sarahjeanlevins@gmail.com">
+            <div class="row my-3 justify-content-center">
+                <div class="col-8 col-md-4 grt px-0 pt-5 pb-0">
+                    <form action="https://formspree.io/sarahjeanlevins@gmail.com" method="POST">
                         <div class="form-group" id="contactme">
                             <input class="form-control form-control-sm formtext" type="text" placeholder="FULL NAME">
                         </div>
                         <div class="form-group">
-                            <input class="form-control form-control-sm formtext" type="text" placeholder="EMAIL ADDRESS">
+                            <input class="form-control form-control-sm formtext" type="email" placeholder="EMAIL ADDRESS">
                         </div>
                         <div class="form-group">
                             <textarea class="form-control form-control-sm formtext" type="text" rows="3" placeholder="HOW CAN I HELP YOU?"></textarea>
@@ -83,9 +88,28 @@
                 </div>
             </div>
 
-        <div class="grt text-center pT-5 m-0" style="max-width: 100%;">
-                <p class="footer">MADE BY SARAH LEVINS 2019 FOR SHECODESPLUS. BANNER IMAGE BY NIKOLA ANCEVSKI ON UNSPASH</p>
-        </div>
+            <!-- social media icons -->
+            <div class="d-flex mt-0 justify-content-center">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item border-0">
+                        <a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook" style="width: 2rem; height: auto;"></a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a href="http://www.instagram.com"><img src="images/instagram.png" alt="instagram" style="width: 2rem; height: auto;"></a>
+                    </li>
+                    <li class="list-group-item border-0"> 
+                        <a href="http://www.linkedin.com"><img src="images/linkedin.png" alt="linkedin" style="width: 2rem; height: auto;"></a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter" style="width: 2rem; height: auto;"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- footer-->
+            <div class="grt text-center pt-5 m-0" style="max-width: 100%;">
+                    <p class="footer">MADE BY SARAH LEVINS 2019 FOR SHECODESPLUS. BANNER IMAGE BY NIKOLA ANCEVSKI ON UNSPASH</p>
+            </div>
 
 
         </div>
