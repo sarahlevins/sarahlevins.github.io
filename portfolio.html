@@ -11,27 +11,30 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+
     <title>Sarah Levins - PORTFOLIO</title>
   </head>
   <body>            
-
-    <div class="container-fluid">
 
             <!-- navigation bar-->
             <nav class="navbar navbar-expand-md navbar-light justify-content-center menulink sticky-top m-0" style="background-color: #ffffff;">
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
-                        <ul class="grt navbar-nav p-0" style="align-items: center">
-                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="aboutme.html" class="nav-link">About</a></li>
-                            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                            <li class="nav-item"><a href="upcoming.html" class="nav-link">Upcoming</a></li>
-                            <li class="nav-item"><a href="index.html#contactme" class="nav-link">Contact Me</a></li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+                    <ul class="grt navbar-nav p-0" style="align-items: center">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="aboutme.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="upcoming.html" class="nav-link">Upcoming</a></li>
+                        <li class="nav-item"><a href="index.html#contactme" class="nav-link">Contact Me</a></li>
+                    </ul>
+                </div>
             </nav>
+
+            <div class="container-fluid">
 
             <!-- page content -->
 
@@ -41,28 +44,34 @@
 
             <div class="card-deck p-5">
                 <div class="card border-dark grt">
-                    <img src="images/portfolio1.png" class="card-img-top" alt="picture of portfolio item 1">
+                    <a href="images/portfolio1.png">
+                        <img src="images/portfolio1.png" class="card-img-top" alt="picture of portfolio item 1">
+                    </a>
                     <div class="card-body">
-                        <h3 class="card-title">Personal Portfolio</h5>
+                        <h3 class="card-title">Portfolio</h5>
                         <p class="card-text">My first ever website. A tool to display what I have learned about HTML and CSS.</p>
                     </div>
                 </div>
 
                 <div class="card border-dark grt">
-                        <img src="images/portfolio2.JPG" class="card-img-top" alt="picture of portfolio item 1">
-                        <div class="card-body">
-                            <h3 class="card-title">Green Day</h5>
-                            <p class="card-text">I've only got one portfolio item right now, so here is a picture I took of Green Day one time I saw them.</p>
-                        </div>
+                    <a href="images/portfolio2.JPG">
+                        <img src="images/portfolio2.JPG" class="card-img-top" alt="picture of portfolio item 2">
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title">Green Day</h5>
+                        <p class="card-text">I've only got one portfolio item right now, so here is a picture I took of Green Day one time I saw them.</p>
                     </div>
+                </div>
 
                 <div class="card border-dark grt">
-                        <img src="images/portfolio3.JPG" class="card-img-top" alt="picture of portfolio item 1">
-                        <div class="card-body">
-                            <h3 class="card-title">My Cat</h5>
-                            <p class="card-text">And here is my cat. His name is Ronald Weasley, but we just call him Ron.</p>
-                        </div>
+                    <a href="images/portfolio3.JPG">
+                        <img src="images/portfolio3.JPG" class="card-img-top" alt="picture of portfolio item 3">
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title">My Cat</h5>
+                        <p class="card-text">And here is my cat. His name is Ronald Weasley, but we just call him Ron.</p>
                     </div>
+                </div>
             </div>
 
         <!-- footer -->
