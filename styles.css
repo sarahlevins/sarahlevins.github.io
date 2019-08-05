@@ -82,3 +82,23 @@ h4 {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+
+a:link {
+    color: #495047;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color:#212529;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:#212529;
+    text-decoration: none;
+  }
+
+  a:active {
+    color:#212529;
+    text-decoration: none;
+  }
