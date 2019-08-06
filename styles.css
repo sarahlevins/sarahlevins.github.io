@@ -2,6 +2,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .body {
     padding-right: 0px;
 }
